@@ -80,4 +80,14 @@ header {
   margin-bottom: .9rem;
 }
 
-.info>p {}
+@media (max-width: 768px) {
+  .card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .japan {
+    /* display: flex; */
+    flex-direction: column;
+  }
+}
